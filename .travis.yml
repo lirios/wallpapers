@@ -1,0 +1,17 @@
+language: c
+
+sudo: required
+
+arch:
+  packages:
+    - extra-cmake-modules
+  script:
+    - cmake . -DKDE_INSTALL_USE_QT_SYS_PATHS=ON -DCMAKE_INSTALL_PREFIX=/usr
+    - make
+
+script:
+  - "curl -s https://raw.githubusercontent.com/mikkeloscar/arch-travis/master/arch-travis.sh | bash"
+
+notifications:
+  email: false
+  slack: lirios:fdUqVmPzqPskEL1UBhqapZ0w
