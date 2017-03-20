@@ -4,9 +4,9 @@ Wallpapers
 [![ZenHub.io](https://img.shields.io/badge/supercharged%20by-zenhub.io-blue.svg)](https://zenhub.io)
 
 [![GitHub release](https://img.shields.io/github/release/lirios/wallpapers.svg)](https://github.com/lirios/wallpapers)
-[![Build Status](https://travis-ci.org/lirios/wallpapers.svg?branch=master)](https://travis-ci.org/lirios/wallpapers)
+[![Build Status](https://travis-ci.org/lirios/wallpapers.svg?branch=develop)](https://travis-ci.org/lirios/wallpapers)
 [![GitHub issues](https://img.shields.io/github/issues/lirios/wallpapers.svg)](https://github.com/lirios/wallpapers/issues)
-[![Maintained](https://img.shields.io/maintenance/yes/2017.svg)](https://github.com/lirios/wallpapers/commits/master)
+[![Maintained](https://img.shields.io/maintenance/yes/2017.svg)](https://github.com/lirios/wallpapers/commits/develop)
 
 Wallpapers for Liri OS.
 
