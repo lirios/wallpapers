@@ -4,7 +4,7 @@ cmake_minimum_required(VERSION 3.0.0 FATAL_ERROR)
 cmake_policy(VERSION 3.4.1)
 
 # Set version
-set(PROJECT_VERSION "0.9.0")
+set(PROJECT_VERSION "0.10.0")
 set(PROJECT_VERSION_MAJOR 0)
 set(PROJECT_SOVERSION 0)
 
