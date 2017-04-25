@@ -4,7 +4,7 @@ sudo: required
 
 arch:
   script:
-    - mkdir build && build
+    - mkdir build && cd build
     - qmake ../wallpapers.pro
     - make
 
