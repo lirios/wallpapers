@@ -3,6 +3,8 @@ language: c
 sudo: required
 
 arch:
+  packages:
+    - qt5-base
   script:
     - mkdir build && cd build
     - qmake ../wallpapers.pro
