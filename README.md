@@ -16,18 +16,19 @@ From the root of the repository, run:
 
 ```sh
 mkdir build; cd build
-cmake .. -DKDE_INSTALL_USE_QT_SYS_PATHS=ON
+qmake ../wallpapers.pro
 make
 make install # use sudo if necessary
 ```
 
-On the `cmake` line, you can specify additional configuration parameters:
+On the `qmake` line, you can specify additional configuration parameters:
 
- * `-DCMAKE_INSTALL_PREFIX=/path/to/install` (for example, `/opt/liri` or `/usr`)
- * `-DCMAKE_BUILD_TYPE=<build_type>`, where `<build_type>` is one of:
-   * **Debug:** debug build
-   * **Release:** release build
-   * **RelWithDebInfo:** release build with debugging information
+ * `LIRI_INSTALL_PREFIX=/path/to/install` (for example `/opt/liri` or `/usr`)
+ * `CONFIG+=use_qt_paths` as an alternative to `LIRI_INSTALL_PREFIX=/path/to/install`
+   if you want to install where Qt is installed
+
+Use `make distclean` from inside your `build` directory to clean up.
+You need to do this before rerunning `qmake` with different options.
 
 ## Licensing
 

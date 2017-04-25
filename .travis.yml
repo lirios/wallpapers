@@ -3,10 +3,9 @@ language: c
 sudo: required
 
 arch:
-  packages:
-    - extra-cmake-modules
   script:
-    - cmake . -DKDE_INSTALL_USE_QT_SYS_PATHS=ON -DCMAKE_INSTALL_PREFIX=/usr
+    - mkdir build && build
+    - qmake ../wallpapers.pro
     - make
 
 script:
