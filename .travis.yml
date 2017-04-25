@@ -6,9 +6,9 @@ arch:
   packages:
     - qt5-base
   script:
-    - mkdir build && cd build
-    - qmake ../wallpapers.pro
-    - make
+    - mkdir build
+    - cd build && qmake ../wallpapers.pro
+    - cd build && make
 
 script:
   - "curl -s https://raw.githubusercontent.com/mikkeloscar/arch-travis/master/arch-travis.sh | bash"
