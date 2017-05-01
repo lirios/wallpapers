@@ -1,10 +1,10 @@
 import qbs 1.0
 
 Product {
-    name: "Liri Wallpapers"
+    name: "Backgrounds"
 
     Group {
-        name: "Backgrounds"
+        name: "Images"
         files: [
             "*.jpg",
             "*.png"
