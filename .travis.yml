@@ -4,11 +4,16 @@ sudo: required
 
 arch:
   packages:
+    - qbs
     - qt5-base
   script:
     - mkdir build
     - cd build && qmake ../wallpapers.pro
     - cd build && make
+    - qbs-setup-toolchains --detect
+    - qbs-setup-qt /usr/bin/qmake-qt5 qt5
+    - qbs config profiles.qt5.baseProfile ${CC}
+    - qbs -d qbs-build -j $(nproc) profile:qt5
 
 script:
   - "curl -s https://raw.githubusercontent.com/mikkeloscar/arch-travis/master/arch-travis.sh | bash"
