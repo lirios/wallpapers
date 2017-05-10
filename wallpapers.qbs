@@ -7,10 +7,7 @@ Project {
         "backgrounds/backgrounds.qbs"
     ]
 
-    minimumQbsVersion: "1.7"
+    minimumQbsVersion: "1.6"
 
-    Product {
-        name: "qmake project files for wallpapers"
-        files: ["**/*.pr[io]"]
-    }
+    qbsSearchPaths: "qbs-shared"
 }
