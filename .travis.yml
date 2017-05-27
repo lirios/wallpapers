@@ -5,11 +5,7 @@ sudo: required
 arch:
   packages:
     - qbs
-    - qt5-base
   script:
-    - mkdir build
-    - cd build && qmake ../wallpapers.pro
-    - cd build && make
     - qbs-setup-toolchains --detect
     - qbs-setup-qt /usr/bin/qmake-qt5 qt5
     - qbs config profiles.qt5.baseProfile ${CC}
