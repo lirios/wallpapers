@@ -1,7 +1,7 @@
 import qbs 1.0
 
 Project {
-    name: "Liri Wallpapers"
+    name: "Wallpapers"
 
     references: [
         "backgrounds/backgrounds.qbs"
