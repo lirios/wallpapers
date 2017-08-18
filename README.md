@@ -10,6 +10,12 @@ Wallpapers
 
 Wallpapers for Liri OS.
 
+## Dependencies
+
+The following modules and their dependencies are required:
+
+ * [qbs-shared](https://github.com/lirios/qbs-shared.git)
+
 ## Installation
 
 Qbs is a new build system that is much easier to use compared to qmake or CMake.
@@ -35,9 +41,10 @@ On the last `qbs` line, you can specify additional configuration parameters at t
 The following are only needed if `qbs.installPrefix` is a system-wide path such as `usr`
 and the default value doesn't suit your needs. All are relative to `qbs.installRoot`:
 
- * `lirideployment.dataDir:path/to/share` where libraries are installed (default: `share`)
+ * `modules.lirideployment.dataDir:path/to/share` where libraries are installed (default: `share`)
 
-See `qbs/shared/modules/lirideployment/lirideployment.qbs` for more deployment-related parameters.
+See [lirideployment.qbs](https://github.com/lirios/qbs-shared/blob/develop/modules/lirideployment/lirideployment.qbs)
+for more deployment-related parameters.
 
 ## Licensing
 
