@@ -7,5 +7,5 @@ Project {
         "backgrounds/backgrounds.qbs"
     ]
 
-    minimumQbsVersion: "1.6"
+    minimumQbsVersion: "1.8.0"
 }
