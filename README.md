@@ -8,13 +8,14 @@ Wallpapers
 [![GitHub issues](https://img.shields.io/github/issues/lirios/wallpapers.svg)](https://github.com/lirios/wallpapers/issues)
 [![Maintained](https://img.shields.io/maintenance/yes/2018.svg)](https://github.com/lirios/wallpapers/commits/develop)
 
-Wallpapers for Liri OS.
+Wallpapers for the Liri desktop.
 
 ## Dependencies
 
 The following modules and their dependencies are required:
 
- * [qbs-shared](https://github.com/lirios/qbs-shared.git)
+ * [qbs](http://code.qt.io/cgit/qbs/qbs.git) >= 1.9.0
+ * [qbs-shared](https://github.com/lirios/qbs-shared.git) >= 1.2.0
 
 ## Installation
 
