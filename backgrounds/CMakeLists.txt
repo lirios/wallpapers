@@ -1,0 +1,10 @@
+install(
+    FILES
+        background_02.png
+        backgrounds.qbs
+        material-02-a.png
+        Saint-Raphael_1.jpg
+        Saint-Raphael_2.jpg
+    DESTINATION
+        "${INSTALL_DATADIR}/backgrounds/liri"
+)
