@@ -2,8 +2,8 @@ Wallpapers
 ==========
 
 [![GitHub release](https://img.shields.io/github/release/lirios/wallpapers.svg)](https://github.com/lirios/wallpapers)
-[![CI](https://github.com/lirios/wallpapers/workflows/CI/badge.svg?branch=develop)](https://github.com/lirios/wallpapers/actions?query=workflow%3ACI)
 [![GitHub issues](https://img.shields.io/github/issues/lirios/wallpapers.svg)](https://github.com/lirios/wallpapers/issues)
+[![CI](https://github.com/lirios/wallpapers/workflows/CI/badge.svg?branch=develop)](https://github.com/lirios/wallpapers/actions?query=workflow%3ACI)
 
 Wallpapers for the Liri desktop.
 
