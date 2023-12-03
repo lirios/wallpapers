@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.10.0)
+cmake_minimum_required(VERSION 3.19)
 
 project("Wallpapers"
     VERSION "0.10.0"
@@ -6,14 +6,12 @@ project("Wallpapers"
     LANGUAGES NONE
 )
 
-## Shared macros and functions:
-if(NOT LIRI_LOCAL_ECM)
-    find_package(LiriCMakeShared "2.0.0" REQUIRED NO_MODULE)
-    list(APPEND CMAKE_MODULE_PATH "${LCS_MODULE_PATH}")
-endif()
+## ECM:
+find_package(ECM 5.245.0 REQUIRED NO_MODULE)
+list(APPEND CMAKE_MODULE_PATH ${ECM_MODULE_PATH})
 
-## Liri specific setup common for all modules:
-include(LiriSetup)
+## Installation directories:
+include(KDEInstallDirs)
 
 ## Add subdirectories:
 add_subdirectory(backgrounds)

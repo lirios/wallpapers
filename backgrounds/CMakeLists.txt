@@ -6,5 +6,5 @@ install(
         Saint-Raphael_1.jpg
         Saint-Raphael_2.jpg
     DESTINATION
-        "${INSTALL_DATADIR}/backgrounds/liri"
+        "${KDE_INSTALL_DATADIR}/backgrounds/liri"
 )
